@@ -1,6 +1,16 @@
 ## Getting Started
 
-First, run the development server:
+First install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
