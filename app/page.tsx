@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
 
   return (
     <main className={styles.main}>
-      <h1>Counter</h1>
+      <h1>Counter App</h1>
       <div className={styles.glassCtr}>
         <p>
           Count: <span data-testid="count">{count}</span>

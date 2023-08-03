@@ -5,7 +5,7 @@ it("Test Home Page", () => {
   render(<Home />);
   // Check if the page is rendered with the heading
   const heading = screen.getByRole("heading", {
-    name: /Counter/i,
+    name: /Counter App/i,
   });
   expect(heading).toBeInTheDocument();
 
