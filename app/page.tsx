@@ -36,15 +36,19 @@ export default function Home() {
       <div className={styles.btnCtr}>
         <button
           onClick={increase}
-          data-testid="checkIcon"
+          data-testid="increment"
           className={styles.fancyBtn}
         >
           Increase
         </button>
-        <button onClick={decrease} className={styles.fancyBtn}>
+        <button
+          onClick={decrease}
+          className={styles.fancyBtn}
+          data-testid="decrement"
+        >
           Decrease
         </button>
-        <button onClick={reset} className={styles.fancyBtn}>
+        <button onClick={reset} className={styles.fancyBtn} data-testid="reset">
           Reset
         </button>
       </div>

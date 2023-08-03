@@ -12,12 +12,12 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## To Do E2E testing
+## To Run Jest Tests
 
 ```bash
-npm run cypress
+npm run test
 # or
-yarn cypress
+yarn test
 # or
-pnpm cypress
+pnpm test
 ```
