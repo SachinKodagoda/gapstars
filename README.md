@@ -49,4 +49,7 @@ Following tests are implemented with jest:<br/>
   <br/>
 - When clicking on the reset button, the amount should be reset to 0
 
-Cypress is Installed but didn't have time to do E2E<br/>
+## Other Info
+
+- Cypress is Installed but didn't have time to do E2E<br/>
+- Deployed on Vercel: https://gapstars.vercel.app/
