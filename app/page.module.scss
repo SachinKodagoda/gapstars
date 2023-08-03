@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 20px;
+  .glassCtr {
+    background: var(--glass-back);
+    border: 2px solid var(--glass-border);
+    display: flex;
+    width: 100%;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  p {
+    font-size: 40px;
+    font-weight: 900;
+  }
+}
+
+.btnCtr {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .fancyBtn {
+    all: unset;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--btn-back);
+    border: 2px solid var(--btn-border-color);
+    color: var(--btn-color);
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 20px 10px;
+  }
+
+  .fancyBtn:active,
+  .fancyBtn:hover {
+    outline: 0;
+  }
+
+  .fancyBtn:active {
+    transform: translateY(2px);
+  }
+}
