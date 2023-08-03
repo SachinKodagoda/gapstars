@@ -3,9 +3,11 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import styles from "./page.module.scss";
 
-export default function Home() {
-  const [count, setCount] = useState(0);
-  const increase = () => {
+export default function Home(): JSX.Element {
+  const [count, setCount] = useState<number>(0);
+
+  // Increment logic
+  const increase = (): void => {
     setCount((val) => {
       if (val >= 10) {
         toast.error("You can't go over 10!");
@@ -15,7 +17,8 @@ export default function Home() {
     });
   };
 
-  const decrease = () => {
+  // Decrement logic
+  const decrease = (): void => {
     setCount((val) => {
       if (val <= 0) {
         toast.error("You can't go below 0!");
@@ -24,7 +27,10 @@ export default function Home() {
       return --val;
     });
   };
-  const reset = () => setCount(0);
+
+  // Reset logic
+  const reset = (): void => setCount(0);
+
   return (
     <main className={styles.main}>
       <h1>Counter</h1>
