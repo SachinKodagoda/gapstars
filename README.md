@@ -26,12 +26,12 @@ pnpm test
 
 Following tests are implemented with jest:<br/>
 
-- Is the page and buttons are rendered <br/>
-- initial amount of the should be 0
+- are the page and buttons rendered? <br/>
+- initial amount of the counter should be 0
   <br/>
-- When decrementing below 0, the amount should be 0
+- When decrementing below 0, the counter amount should be 0
   <br/>
-- When incrementing above 10, the amount should be 10
+- When incrementing above 10, the counter amount should be 10
   <br/>
 - When clicking on the increment button, the amount should be incremented by 1
   <br/>
